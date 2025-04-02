@@ -18,14 +18,15 @@ Base Model = LLama-3.2-3b-Instruct
 **Top-k Retrieval**: `k=20`  
 **Rerank Top**: `rerank=5`  
 
-| Reranker Model                            | Accuracy        | Inference Time     |
-|-------------------------------------------|------------------|---------------------|
-| `cross-encoder/ms-marco-MiniLM-L-6-v2`    | ✅ 131 / 146     | ~1s per answer      |
-| `cross-encoder/ms-marco-electra-base`     | ✅ 126 / 146     | ~12s per answer     |
-| `BAAI/bge-reranker-v2-m3`                 | ✅ 135 / 146     | —                   |
+| Reranker Model                            | Accuracy        | 
+|-------------------------------------------|------------------|
+| `cross-encoder/ms-marco-MiniLM-L-6-v2`    |  131 / 146     | 
+| `cross-encoder/ms-marco-electra-base`     |  126 / 146     | 
+| `BAAI/bge-reranker-v2-m3`                 |  135 / 146     | 
 
 ** Best Accuracy Achieved**: **92.47%** with `BAAI/bge-reranker-v2-m3`
 
 ---
 
+![Graph(19)](https://github.com/user-attachments/assets/2206239d-5fa2-4742-a6c5-43d1f663f3ea)
 
